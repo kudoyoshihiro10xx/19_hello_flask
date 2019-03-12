@@ -7,7 +7,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello_world():
-    return "<thml>Hi 八幡平!</html>"
+    return "<html>Hi 八幡平!</html>"
 
 
 @app.route("/hachimantai")
